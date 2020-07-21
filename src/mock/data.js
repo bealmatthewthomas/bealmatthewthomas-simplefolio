@@ -19,9 +19,9 @@ export const heroData = {
 export const aboutData = {
   img: 'bealskier.png',
   paragraphOne:
-    'I graduated from the University of Vermont in 2016 with a double major in Computer Science, and Political Science',
+    'I graduated from the University of Vermont in 2016 with a double major in Computer Science, and Political Science.',
   paragraphTwo:
-    'I then worked for Lord Corporation as a Web Developer for 2 years in Vermont before moving to Boston',
+    'Then, I worked for Lord Corporation as a Web Developer for 2 years in Vermont before moving to Boston.',
   paragraphThree: 'There, I began working for Butcherbox, where I am currently employed!',
   resume: '', // if no resume, the button will not show up
 };
@@ -33,9 +33,9 @@ export const projectsData = [
     img: 'tellmyrep.png',
     title: 'Tell My Rep',
     info:
-      'Tell my rep is a collaborative project between me and my girlfriend Somer Brown. Currently it is just a government representative lookup tool powered by the google civics api',
+      'Tell my rep is a collaborative project between me and my girlfriend Somer Brown. Currently it is just a government representative lookup tool powered by the Google Civics API',
     info2:
-      'The next step will be to hook the Prismic CMS up to it and allow Somer to publish talking points about issues she and I care about so people have a place to start when the reach out.',
+      'The next step will be to hook the Prismic CMS up to it, and allow Somer to publish talking points about issues she and I care about, so people have a place to start when the reach out.',
     url: 'https://tellmyrep.com',
     repo: 'https://github.com/rep-contact/rep-template/', // if no repo, the button will not show up
   },
