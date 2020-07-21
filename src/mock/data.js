@@ -2,56 +2,52 @@ import { nanoid } from 'nanoid';
 
 // HEAD DATA
 export const headData = {
-  title: '', // e.g: 'Name | Developer'
-  lang: '', // e.g: en, es, fr, jp
-  description: '', // e.g: Welcome to my website
+  title: 'Matthew Beal', // e.g: 'Name | Developer'
+  lang: 'en', // e.g: en, es, fr, jp
+  description: 'Welcome to my portfolio', // e.g: Welcome to my website
 };
 
 // HERO DATA
 export const heroData = {
-  title: '',
-  name: '',
-  subtitle: '',
-  cta: '',
+  title: 'Hi, I am',
+  name: 'Matthew Beal',
+  subtitle: 'I am a Full-Stack Engineer',
+  cta: 'Learn More',
 };
 
 // ABOUT DATA
 export const aboutData = {
-  img: 'profile.jpg',
-  paragraphOne: '',
-  paragraphTwo: '',
-  paragraphThree: '',
-  resume: 'https://www.resumemaker.online/es.php', // if no resume, the button will not show up
+  img: 'bealskier.png',
+  paragraphOne:
+    'I graduated from the University of Vermont in 2016 with a double major in Computer Science, and Political Science',
+  paragraphTwo:
+    'I then worked for Lord Corporation as a Web Developer for 2 years in Vermont before moving to Boston',
+  paragraphThree: 'There, I began working for Butcherbox, where I am currently employed!',
+  resume: '', // if no resume, the button will not show up
 };
 
 // PROJECTS DATA
 export const projectsData = [
   {
     id: nanoid(),
-    img: 'project.jpg',
-    title: '',
-    info: '',
-    info2: '',
-    url: '',
-    repo: 'https://github.com/cobidev/react-simplefolio', // if no repo, the button will not show up
+    img: 'tellmyrep.png',
+    title: 'Tell My Rep',
+    info:
+      'Tell my rep is a collaborative project between me and my girlfriend Somer Brown. Currently it is just a government representative lookup tool powered by the google civics api',
+    info2:
+      'The next step will be to hook the Prismic CMS up to it and allow Somer to publish talking points about issues she and I care about so people have a place to start when the reach out.',
+    url: 'https://tellmyrep.com',
+    repo: 'https://github.com/rep-contact/rep-template/', // if no repo, the button will not show up
   },
   {
     id: nanoid(),
-    img: 'project.jpg',
-    title: '',
-    info: '',
+    img: 'bealphotos.png',
+    title: 'BealPhotos',
+    info:
+      'BealPhotos was my first personal web project. My objective was to gain more knowledge with personally deploying a website from scratch, and to gain a greater understanding of Laravel.',
     info2: '',
-    url: '',
-    repo: 'https://github.com/cobidev/react-simplefolio', // if no repo, the button will not show up
-  },
-  {
-    id: nanoid(),
-    img: 'project.jpg',
-    title: '',
-    info: '',
-    info2: '',
-    url: '',
-    repo: 'https://github.com/cobidev/react-simplefolio', // if no repo, the button will not show up
+    url: 'https://bealphotos.com',
+    repo: 'https://github.com/bealmatthewthomas/bealphotos', // if no repo, the button will not show up
   },
 ];
 
@@ -90,5 +86,5 @@ export const footerData = {
 
 // Github start/fork buttons
 export const githubButtons = {
-  isEnabled: true, // set to false to disable the GitHub stars/fork buttons
+  isEnabled: false, // set to false to disable the GitHub stars/fork buttons
 };
